@@ -17,6 +17,7 @@
     ./plugins/utils/whichkey.nix
     ./plugins/utils/oil.nix
     ./plugins/utils/yazi.nix
+    ./plugins/utils/diffview.nix
   ];
 
   options = { };
