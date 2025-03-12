@@ -18,6 +18,7 @@
     ./plugins/utils/oil.nix
     ./plugins/utils/yazi.nix
     ./plugins/utils/diffview.nix
+    ./plugins/utils/lazygit.nix
   ];
 
   options = { };
