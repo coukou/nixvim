@@ -15,6 +15,7 @@
     ./plugins/utils/comment.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix
+    ./plugins/utils/oil.nix
   ];
 
   options = { };
