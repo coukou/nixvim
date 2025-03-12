@@ -5,6 +5,5 @@
 
   imports = [
     ./icons.nix
-    ./files.nix
   ];
 }
