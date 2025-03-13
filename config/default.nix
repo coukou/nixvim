@@ -20,6 +20,7 @@
     ./plugins/utils/yazi.nix
     ./plugins/utils/diffview.nix
     ./plugins/utils/lazygit.nix
+    ./plugins/ai/avante.nix
   ];
 
   options = { };
