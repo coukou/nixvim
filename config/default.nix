@@ -5,6 +5,7 @@
     ./settings.nix
 
     ./plugins/completion/blink.nix
+    ./plugins/completion/minuet-ai.nix
     ./plugins/git/gitsigns.nix
     ./plugins/lsp/conform.nix
     ./plugins/lsp/lsp.nix

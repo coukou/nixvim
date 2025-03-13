@@ -32,7 +32,14 @@
           nixvim' = nixvim.legacyPackages."${system}";
           nvim = nixvim'.makeNixvimWithModule {
             inherit pkgs;
-            module = ./config;
+            module = [
+              {
+                imports = [
+                  ./plugins/minuet-ai.nix
+                  ./config
+                ];
+              }
+            ];
             extraSpecialArgs = {
               inherit inputs system;
             };
