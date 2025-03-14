@@ -1,0 +1,5 @@
+{
+  plugins.llama = {
+    enable = true;
+  };
+}
