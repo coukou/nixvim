@@ -1,7 +1,7 @@
 { helpers, ... }:
 {
   plugins.minuet-ai = {
-    enable = true;
+    enable = false;
 
     settings = {
 
@@ -27,8 +27,8 @@
         openai_fim_compatible = {
           api_key = "TERM";
           name = "Llama.cpp";
-          end_point = "http://localhost:1234/v1/completions";
-          model = "qwen2.5-coder-7b-instruct";
+          end_point = "http://localhost:8012/v1/completions";
+          model = "Qwen2.5-Coder-3B-Q8_0";
           optional = {
             max_tokens = 128;
             top_p = 0.9;
