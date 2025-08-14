@@ -35,8 +35,6 @@
             module = [
               {
                 imports = [
-                  ./plugins/minuet-ai.nix
-                  ./plugins/llama.nix
                   ./config
                 ];
               }

@@ -14,12 +14,12 @@
         };
       };
 
-      rust_analyzer = {
-        enable = true;
+      # rust_analyzer = {
+      #  enable = true;
 
-        installRustc = false;
-        installCargo = false;
-      };
+      #  installRustc = false;
+      #  installCargo = false;
+      #};
 
       ts_ls = {
         enable = true;

@@ -5,9 +5,9 @@
     settings = {
       formatters_by_ft = {
         lua = [ "stylua" ];
-        javascript = [ "prettierd" ];
-        typescript = [ "prettierd" ];
-        typescriptreact = [ "prettierd" ];
+        javascript = [ "biome" "biome-organize-imports" ];
+        typescript = [ "biome" "biome-organize-imports" ];
+        typescriptreact = [ "biome" "biome-organize-imports" ];
       };
 
       format_after_save = helpers.toLuaObject {
