@@ -4,7 +4,29 @@
   plugins.telescope = {
     enable = true;
 
-    settings = { };
+    settings = {
+      file_ignore_patterns = [
+        "%.git/"
+        "%.DS_Store"
+        "node_modules/"
+        "__pycache__/"
+        "target/"
+        "build/"
+        "dist/"
+        "vendor/"
+        "%.o"
+        "%.a"
+        "%.out"
+        "%.class"
+        "%.pdf"
+        "%.mp4"
+        "%.mkv"
+        "%.zip"
+        "%.gz"
+        "%.log"
+        "%.lock"
+      ];
+    };
 
     keymaps = {
       "<leader>fd" = {
