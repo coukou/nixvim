@@ -16,4 +16,17 @@
       };
     };
   };
+
+  keymaps = [
+    {
+      key = "<leader>cc";
+      action = "<CMD>CodeCompanionChat<CR>";
+      options.desc = "Open codecompanion chat";
+    }
+    {
+      key = "<leader>ca";
+      action = "<CMD>CodeCompanionActions<CR>";
+      options.desc = "Open codecompanion action";
+    }
+  ];
 }
