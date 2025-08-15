@@ -65,6 +65,14 @@
         action = "lsp_workspace_symbols";
         options.desc = "[Find] LSP workspace symbols";
       };
+      "<leader>fr" = {
+        action = "lsp_references";
+        options.desc = "[Find] LSP references";
+      };
+      "<leader>fD" = {
+        action = "lsp_definitions";
+        options.desc = "[Find] LSP definitions";
+      };
     };
   };
 }
