@@ -28,7 +28,6 @@
         };
 
         sources = {
-
           providers.copilot = {
             name = "copilot";
             async = true;
