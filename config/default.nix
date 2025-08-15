@@ -21,6 +21,7 @@
     ./plugins/utils/diffview.nix
     ./plugins/utils/lazygit.nix
     ./plugins/ai/copilot.nix
+    ./plugins/ai/codecompanion.nix
     ./plugins/ui/inline-diagnostics.nix
     ./plugins/navigation/harpoon.nix
   ];
