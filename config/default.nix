@@ -1,7 +1,7 @@
 {
   imports = [
     ./autocommands.nix
-    ./keys.nix
+    ./keymaps.nix
     ./settings.nix
 
     ./plugins/completion/blink.nix
