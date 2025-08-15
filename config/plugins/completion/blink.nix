@@ -1,4 +1,4 @@
-{ helpers, ... }: {
+{
   plugins = {
     blink-compat = {
       enable = true;
@@ -6,6 +6,10 @@
         debug = false;
         impersonate_nvim_cmp = true;
       };
+    };
+
+    blink-copilot = {
+      enable = true;
     };
 
     blink-cmp = {
@@ -24,10 +28,19 @@
         };
 
         sources = {
+
+          providers.copilot = {
+            name = "copilot";
+            async = true;
+            module = "blink-copilot";
+            score_offset = 100;
+          };
+
           default = [
-            "buffer"
             "lsp"
             "path"
+            "buffer"
+            "copilot"
           ];
         };
 
