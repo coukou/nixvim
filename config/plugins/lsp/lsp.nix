@@ -37,6 +37,10 @@
           action = "hover";
           desc = " Hover";
         };
+        "<leader>r" = {
+          action = "rename";
+          desc = "LSP rename";
+        };
       };
     };
   };
