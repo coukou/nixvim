@@ -19,12 +19,12 @@
 
   keymaps = [
     {
-      key = "<leader>cc";
+      key = "<leader>ac";
       action = "<CMD>CodeCompanionChat<CR>";
       options.desc = "Open codecompanion chat";
     }
     {
-      key = "<leader>ca";
+      key = "<leader>aa";
       action = "<CMD>CodeCompanionActions<CR>";
       options.desc = "Open codecompanion action";
     }

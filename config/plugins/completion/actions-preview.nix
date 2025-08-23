@@ -5,7 +5,7 @@
 
   keymaps = [
     {
-      key = "<C-.>";
+      key = "<leader>ca";
       action.__raw = ''require("actions-preview").code_actions'';
       options.desc = "Code actions";
     }
