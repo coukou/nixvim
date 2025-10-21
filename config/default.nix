@@ -16,6 +16,7 @@
     ./plugins/ui/neotree.nix
     ./plugins/ui/render-markdown.nix
     ./plugins/ui/inline-diagnostics.nix
+    ./plugins/ui/indent-blankline.nix
     ./plugins/utils/comment.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix
