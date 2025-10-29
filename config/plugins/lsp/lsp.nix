@@ -24,6 +24,10 @@
       ts_ls = {
         enable = true;
       };
+
+      eslint = {
+        enable = true;
+      };
     };
 
     keymaps = {
