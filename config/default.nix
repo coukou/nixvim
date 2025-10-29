@@ -23,6 +23,7 @@
     ./plugins/utils/oil.nix
     ./plugins/utils/diffview.nix
     ./plugins/utils/lazygit.nix
+    ./plugins/utils/surround.nix
     ./plugins/ai/copilot.nix
     ./plugins/ai/codecompanion.nix
     ./plugins/navigation/harpoon.nix
