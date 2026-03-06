@@ -117,4 +117,26 @@ in
       },
     })
   '';
+
+  autoCmd = [
+    {
+      event = [ "BufEnter" ];
+      pattern = "*";
+      callback = {
+        __raw = ''
+          function(args)
+            local daemon = require("cursortab.daemon")
+            if not daemon then return end
+
+            if vim.bo.filetype == "oil" then
+              daemon.set_enabled(false)
+            else
+              daemon.set_enabled(true)
+            end
+          end
+        '';
+      };
+    }
+  ];
+
 }
