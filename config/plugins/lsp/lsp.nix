@@ -25,9 +25,10 @@
         enable = true;
       };
 
-      eslint = {
+      oxlint = {
         enable = true;
       };
+
     };
 
     keymaps = {
