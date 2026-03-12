@@ -1,4 +1,4 @@
-{ helpers, ... }: {
+{ lib, ... }: {
   plugins.conform-nvim = {
     enable = true;
 
@@ -11,7 +11,7 @@
         json = [ "oxfmt" ];
       };
 
-      format_after_save = helpers.toLuaObject {
+      format_after_save = lib.nixvim.toLuaObject {
         timeout_ms = 500;
         lsp_format = "fallback";
       };
