@@ -25,7 +25,6 @@
     ./plugins/utils/lazygit.nix
     ./plugins/utils/surround.nix
     ./plugins/ai/opencode.nix
-    ./plugins/ai/cursortab.nix
     ./plugins/navigation/harpoon.nix
   ];
 
