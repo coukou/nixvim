@@ -3,13 +3,13 @@
 }:
 let
   pname = "cursortab.nvim";
-  version = "v0.6.4-beta";
+  version = "778a80aeee1b24304ce03dd9ae849d64173ab6ec";
 
   src = pkgs.fetchFromGitHub {
     owner = "leonardcser";
     repo = pname;
-    rev = "v0.6.4-beta";
-    hash = "sha256-YBRFbgleh/PLj5QdlZtLd13K9msBzSgiWFoqlAdPFw4=";
+    rev = version;
+    hash = "sha256-L/rqUyleUZFSmKIq0b5O018+kQG21rkENuwS2tJpkn4=";
   };
 
   # 1. Build the Go Server component

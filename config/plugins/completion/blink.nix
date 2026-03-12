@@ -8,10 +8,6 @@
       };
     };
 
-    blink-copilot = {
-      enable = true;
-    };
-
     blink-cmp = {
       enable = true;
 
@@ -28,18 +24,10 @@
         };
 
         sources = {
-          providers.copilot = {
-            name = "copilot";
-            async = true;
-            module = "blink-copilot";
-            score_offset = 100;
-          };
-
           default = [
             "lsp"
             "path"
             "buffer"
-            "copilot"
           ];
         };
 
