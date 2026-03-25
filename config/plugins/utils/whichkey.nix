@@ -6,8 +6,4 @@
       preset = "helix";
     };
   };
-
-  opts = {
-    timeoutlen = 10;
-  };
 }

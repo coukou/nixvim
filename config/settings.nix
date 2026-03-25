@@ -24,5 +24,7 @@
     encoding = "utf-8";
     fileencoding = "utf-8";
     winborder = "rounded";
+
+    timeoutlen = 1000;
   };
 }
