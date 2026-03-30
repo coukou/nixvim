@@ -29,6 +29,14 @@
         enable = true;
       };
 
+      svelte = {
+        enable = true;
+      };
+
+      tailwindcss = {
+        enable = true;
+      };
+
     };
 
     keymaps = {
